@@ -6,7 +6,6 @@ const fileWrite = util.promisify(fs.writeFile);
 
 class Data {
     read() {
-        console.log('testing :>> ');
         return fileRead("db/db.json","utf8");
     }
     write(note){
@@ -22,7 +21,6 @@ class Data {
                 console.error(err);
                 parsedNotes = [];
             }
-            console.log('parsedNotes :>> ', parsedNotes);
             return parsedNotes;
         });
     }
