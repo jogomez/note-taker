@@ -17,7 +17,7 @@ Users can add a new note, retrieve notes, and delete notes.
 
 ## Installation
 
-You can access the app at: https://jogomez.github.io/note-taker/public/index.html
+You can access the app at: https://jogomez.github.io/note-taker
 
 ## Usage
 
